@@ -2,6 +2,6 @@
 
 __version__ = "0.1.0"
 
-from .storage import MySQLStorage
+from .MysqlResourceRepository import MysqlResourceRepository
 
-__all__ = ["MySQLStorage"]
+__all__ = ["MysqlResourceRepository"]
